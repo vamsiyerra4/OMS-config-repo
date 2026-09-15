@@ -42,7 +42,7 @@ management:
       exposure:
         include: health,info,metrics
 
-  tracking:
+  tracing:
     sampling:
       probability: 1.0
     export:
