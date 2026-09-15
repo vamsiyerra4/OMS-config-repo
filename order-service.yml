@@ -24,6 +24,11 @@ spring:
     properties:
       spring.json.add.type.headers: false
 
+    template:
+      observation-enabled: true
+
+
+
   datasource:
     url: jdbc:postgresql://localhost:5432/order_db
     username: vamsi
